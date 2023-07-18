@@ -1,0 +1,50 @@
+// 1.
+// let a = [];
+// let b = [];
+// console.log(a == b);  false
+// console.log(a === b);  false
+
+// 2.
+// let a = [];
+// let b = a;
+// console.log(a == b);  true
+// console.log(a === b);  true
+
+// 3.
+// let a = [20];
+// let b = [20];
+// console.log(a[0] == b[0]);  // true
+// console.log(a[0] === b[0]);  // true
+
+// 4.
+// let z = [10, 20, 30, 40];
+// let a = { name: 'aniket' };
+// console.log(...z);  // 10 20 30 40
+
+// 5.
+// console.log(typeof NaN);  //number
+
+//6.
+// let data = 10 - -10;
+// console.log(data);  // 20
+
+//7.
+// const set = new Set([1, 1, 2, 3, 3, 4, 5, 6, 6]);
+// console.log(set);  // {1,2,3,4,5,6}
+// set is a special data structure which removes the duplicte values and only keep the uniques values in it.
+
+//8.
+// let data = {name: 'Aniket'};
+// console.log(delete data.name);  // true
+
+//9. 
+// const data = {name : 'Ani'};
+// console.log(delete data);  // false
+// this is because we cannot delete the data using delete operation
+
+// 10.
+// const data = ['ani','bani','cani'];
+// const [y] = data;
+// const [x,z] = data;
+// console.log(y);  // ani
+// console.log(x,z);  // ani,bani
