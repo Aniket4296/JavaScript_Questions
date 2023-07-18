@@ -48,3 +48,14 @@
 // const [x,z] = data;
 // console.log(y);  // ani
 // console.log(x,z);  // ani,bani
+
+// 11.
+// const data = ['ani','bni','cni'];
+// const [x] = data;
+// console.log(x);  // ani
+// const [,y] = data;
+// console.log(y);  // bni
+// const [,,z] = data;
+// console.log(z);  // cni
+// const [...a] = data;
+// console.log(a);  // ['ani','bni','cni']
